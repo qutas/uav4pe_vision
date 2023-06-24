@@ -118,6 +118,8 @@ catkin_install_python(PROGRAMS
   scripts/vision_processing.py
   scripts/oakd_ros.py
   scripts/oakd_ros-dnn_detector.py
+  scripts/aruco_subscriber.py
+  scripts/dai_publisher.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
   
 

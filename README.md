@@ -22,3 +22,16 @@ This ROS package contains algorithms developed in Python to to detect objects us
    ```sh
     pip3 install depthai
     ```
+
+## Ensure you have cv-bridge and vision-opencv packages installed using aptitude store and install depthai packages using pip
+
+```
+sudo apt-get install ros-noetic-compressed-image-transport
+sudo apt-get install ros-noetic-camera-info-manager
+sudo apt-get install ros-noetic-rqt-image-view
+sudo apt-get install ros-noetic-cv-bridge
+sudo apt-get install ros-noetic-vision-opencv
+
+sudo apt-get install python3-pip
+python3 -m pip install -U depthai
+```
